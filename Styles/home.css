@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 1.25rem, 1rem;
+  top: 0;
+  bottom: 500px;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+
+.logo{
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+#img_logo{
+  width: 60px;
+}
+
+.school_name{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 0.3rem;
+  margin-left: 8rem;
+}
+
+.school_name h1{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 1rem;
+
+}
+.nav a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.65rem, 0.94rem;
+}
+
+.nav a:hover{
+  background-color: #3b82f6;
+  text-decoration: underline;
+}
+
+main{
+  background-color: #3b82f6;
+  padding: 3.75rem 1.25rem;
+  text-align: center;
+  max-height: 400px;
+}
+
+.introduction h2 {
+  font-size: 2rem;
+  font-style: bold;
+  color: darkblue;
+  margin-bottom: 0.625rem;
+}
+
+.introduction p{
+  font-size: 1.125re;
+  color: lightblue;
+  margin-bottom: 1.875rem;
+}
+
+.school_image{
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.school_image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0;
+}
+
+.about{
+  text-align: center;
+  padding: 2.5rem 1.25rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.offers{
+  display: flex;
+  flex-direction: row;
+}
+
+.offer-box{
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0.625rem;
+}
+
+.offer-box h4{
+  font-size: 1.25rem;
+  color: darkblue;
+  margin: 0.625rem;
+}
+
+.offer-box p{
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+footer{
+  background-color: darkgray;
+  color: white;
+  padding: 1.875rem 1.25re;
+  text-align: center;
+}
+
+.nav_footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav_footer a:hover{
+  text-decoration: underline;
+  background-color: #3b82f6;
+}
+
+.footer_nav-menu p{
+  font-size: 0.875rem;
+  color: #aaaaaa;
+  margin-top: 1.25rem;
+}
