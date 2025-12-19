@@ -43,7 +43,7 @@ header{
 .school_name h1{
   font-size: 1.5rem;
   text-align: center;
-  margin: 0;
+  margin: 1rem;
 }
 
 .nav{
@@ -53,6 +53,12 @@ header{
   margin: 1rem;
 
 }
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;  /* 1 column on mobile */
+  }
+}
+
 .nav a{
   color: #ffffff;
   text-decoration: none;
@@ -66,10 +72,19 @@ header{
 
 main{
   margin-top: 5rem;
-  background-color: #3b82f6;;
+  background-color: #3b82f6;
   padding: 3.75rem 1.25rem;
   text-align: center;
 }
+
+
+@media (max-width: 768px) {
+  .introduction {
+  padding: 3.75rem 1.25rem;
+  border-radius: 0.625rem;
+  margin-bottom: 2.5rem;
+} 
+  }
 
 
 .introduction h2 {
